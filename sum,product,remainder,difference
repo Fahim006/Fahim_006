@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main ()
+
+{
+    int a, b, sum, product, difference, remainder;
+    double quotient;
+
+    printf ( "enter your number\n" );
+    scanf ( "%d %d", &a, &b );
+
+    sum = a + b;
+    printf ( "the sum is %d\n", sum);
+
+    product = a * b;
+    printf ( "the product is %d\n", product );
+
+    difference = a - b;
+    printf ( "the diffence is %d\n", difference);
+
+    quotient = a / b;
+    printf ( "the quotient is %lf\n", quotient );
+
+    remainder = a % b;
+    printf ( "remiander is %d\n", remainder);
+
+    return 0;
+}
