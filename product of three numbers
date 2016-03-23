@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main ()
+
+{
+    int x, y, z, product;
+
+    printf("The numbers are:\n");
+    scanf("%d%d%d", &x, &y, &z);
+
+    product = x*y*z;
+
+    printf("The product is %d", product);
+
+    return 0;
+}
