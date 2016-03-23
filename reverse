@@ -3,7 +3,7 @@
 int main ()
 
 {
-    int num, r, revense = 0;
+    int num, r, reverse = 0;
 
 
     printf ("Enter your number\n");
@@ -11,11 +11,11 @@ int main ()
 
     while (num){
         r = num%10;
-        revense=revense*10+r;
+        reverse=reverse*10+r;
 
         num = num/10;
     }
-    printf ("revensed of number is %d\n", revense);
+    printf ("reversed of number is %d\n", reverse);
 
     return 0;
 }
