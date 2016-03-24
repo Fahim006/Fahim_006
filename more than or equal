@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+ int main ()
+
+ {
+     int a, b;
+
+     printf ( " Enter your number\n");
+     scanf ("%d %d", &a, &b);
+
+     if (a>b){
+        printf ( "num1 is larger\n" );}
+
+     if ( a == b ){
+        printf ( "num1 is equal to num2\n");}
+
+     return 0;
+
+ }
