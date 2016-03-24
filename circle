@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main ()
+
+{
+    int r, d, c, a;
+
+    printf ("enter the radius\n");
+    scanf ("%d", &r);
+
+    {
+
+       (d == 2*r);
+        printf ("the diameter is %d\n", d);
+
+
+    (c == 2*r*3.1416);
+        printf ("the curcumference is %d\n", c);
+
+
+    (a == 3.1416*r*r);
+        printf ("the area is %d\n", a);}
+
+
+
+    return 0;
+}
