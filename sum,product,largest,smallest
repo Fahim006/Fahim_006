@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main ()
+
+{
+    int a, b, c, sum, product;
+
+    printf ( "enter your number\n");
+    scanf ( "%d %d %d", &a, &b, &c);
+
+    sum = a + b +c;
+    printf ( " the sum is %d\n", sum);
+
+    product = a * b * c;
+    printf ( " the product is %d", product);
+
+    if(a>b)&&(a>c){
+        printf ("the largest number is a\n");}
+
+        else
+
+        if (a<b)&&(a<c){
+            printf ("the smallest number is a\n");}
+
+
+
+    return 0;
+
+
+}
