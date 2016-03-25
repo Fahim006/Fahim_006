@@ -1,0 +1,53 @@
+#include <stdio.h>
+
+int main ()
+
+{
+  int a, b, c, d, e;
+
+  printf ("enter your number\n");
+  scanf ("%d%d%d%d%d", &a, &b, &c, &d, &e);
+
+
+{
+
+
+  if(a>b && a>c && a>d && a>e){
+        printf ("the a is the largest\n");}
+
+           else if (b>a && b>c && b>d && b>e){
+               printf ("the b is the largest\n");}
+
+                  else if (c>a && c>b && c>d && c>e){
+                    printf ("the c is the largest\n");}
+
+                    else if (d>a && d>b && d>c && d>e){
+                        printf("d is the largest\n");}
+
+                        else if (e>a && e>b && e>c && e>d){
+                            printf("e is the largest\n");}
+}
+
+
+{
+
+
+  if(a<b && a<c && a<d && a<e){
+        printf ("the a is the smallest\n");}
+
+           else if (b<a && b<c && b<d && b<e){
+               printf ("the b is the smallest\n");}
+
+                  else if (c<a && c<b && c<d && c<e){
+                    printf ("the c is the smallest\n");}
+
+                    else if (d<a && d<b && d<c && d<e){
+                        printf("d is the smallest\n");}
+
+                        else if (e<a && e<b && e<c && e<d){
+                            printf("e is the smallest\n");}
+
+}
+
+return 0;
+}
