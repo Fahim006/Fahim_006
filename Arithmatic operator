@@ -1,0 +1,40 @@
+#include <stdio.h>
+
+int main ()
+
+{
+    int s,su,m,d,a,b,n;
+
+    printf("Enter numbers:");
+    scanf("%d%d", &a, &b);
+    printf("1 for sum,2 for subtraction,3 for multiply,4 for division:");
+    scanf("%d", &n);
+    switch(n)
+
+    {
+    case 1:
+        s=a+b;
+        printf("The sum is %d", s);
+        break;
+
+    case 2:
+        su = a-b;
+        printf("The subtraction is %d", su);
+        break;
+
+    case 3:
+        m= a*b;
+        printf("The multiply is %d", m);
+        break;
+
+    case 4:
+        d= a/b;
+        printf("The divission is %d", d);
+        break;
+
+    default:
+        printf("wrong input");
+        break;
+    }
+    return 0;
+}
